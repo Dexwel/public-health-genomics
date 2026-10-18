@@ -1,0 +1,30 @@
+# Create the course environment (works on Linux, macOS Intel/Apple-silicon via Rosetta, and WSL2):
+#   mamba env create -f environment.yml      # or: conda env create -f environment.yml
+#   conda activate phg
+#   bash scripts/check_setup.sh
+#
+# Versions are pinned loosely on purpose. The labs were tested with:
+#   R 4.3.3, PLINK 1.90b7.2, samtools 1.19.2, bcftools 1.19, bwa 0.7.17, fastp 0.23.4, FastQC 0.12.1
+name: phg
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.9
+  - numpy
+  - r-base>=4.3
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-ape
+  - r-data.table
+  - plink=1.9
+  - samtools>=1.19
+  - bcftools>=1.19
+  - htslib
+  - bwa
+  - fastp
+  - fastqc
+  - seqtk
+  - git

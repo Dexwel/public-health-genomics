@@ -1,0 +1,15 @@
+sample	chrom	pos	ref	alt	type	true_allele_fraction	gene	consequence	protein_effect	note
+sampleA	chrToy	1153	C	A	SNV	1.0	toyR1	synonymous_variant	p.P51P	codon 51 CCC>CCA (+ strand gene)
+sampleA	chrToy	1301	A	C	SNV	1.0	toyR1	missense_variant	p.K101Q	codon 101 AAA>CAA (+ strand gene)
+sampleA	chrToy	2600	T	A	SNV	1.0		intergenic_variant		
+sampleA	chrToy	4019	A	T	SNV	1.0	toyR2	missense_variant	p.S61T	codon 61 TCA>ACA (- strand gene)
+sampleA	chrToy	5200	G	C	SNV	1.0		intergenic_variant		
+sampleA	chrToy	1449	AGCT	A	DEL	1.0	toyR1	inframe_deletion	p.del(codon 151)	3 bp deletion
+sampleB	chrToy	1301	A	C	SNV	1.0	toyR1	missense_variant	p.K101Q	codon 101 AAA>CAA (+ strand gene)
+sampleB	chrToy	1606	T	A	SNV	1.0	toyR1	stop_gained	p.Y202*	codon 202 TAT>TAA (+ strand gene)
+sampleB	chrToy	2600	T	A	SNV	1.0		intergenic_variant		
+sampleB	chrToy	5200	G	C	SNV	1.0		intergenic_variant		
+sampleB	chrToy	1751	T	TG	INS	1.0	toyR1	frameshift_variant	frameshift	1 bp insertion
+sampleB	chrToy	2200	A	C	SNV	0.3		intergenic_variant		minor sub-population variant (about 30% of reads)
+sampleC	chrToy	1153	C	A	SNV	1.0	toyR1	synonymous_variant	p.P51P	codon 51 CCC>CCA (+ strand gene)
+sampleC	chrToy	2600	T	A	SNV	1.0		intergenic_variant		

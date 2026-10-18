@@ -1,0 +1,11 @@
+SNP	issue
+ts13_078	alleles swapped (A1/A2 reversed, beta sign flipped) - harmonise by matching alleles
+ts16_046	alleles swapped (A1/A2 reversed, beta sign flipped) - harmonise by matching alleles
+ts02_102	alleles swapped (A1/A2 reversed, beta sign flipped) - harmonise by matching alleles
+ts04_082	alleles swapped (A1/A2 reversed, beta sign flipped) - harmonise by matching alleles
+ts12_124	strand-flipped labels (complement alleles) - resolve by complementing
+ts07_041	strand-flipped labels (complement alleles) - resolve by complementing
+ts02_033	strand-flipped labels (complement alleles) - resolve by complementing
+ts06_081	strand-flipped labels (complement alleles) - resolve by complementing
+ts14_007	strand-flipped labels (complement alleles) - resolve by complementing
+ts04_087	strand-flipped labels (complement alleles) - resolve by complementing

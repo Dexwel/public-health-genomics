@@ -1,0 +1,33 @@
+name: Propose a resource, case study or dataset
+description: Suggest a reading, course, tool, guideline, local case study or open dataset to add.
+title: "[Resource] name"
+labels: ["resource", "needs-triage"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Official or publisher link (DOI preferred for papers).
+    validations:
+      required: true
+  - type: dropdown
+    id: week
+    attributes:
+      label: Best fit
+      multiple: true
+      options: ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8", "Week 9", "Week 10", "Week 11", "Week 12", "Glossary", "Start-here"]
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it good, and for whom?
+      description: Two sentences. Which part should learners read? Is it free? Which languages or regions does it serve?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I opened the link and it works
+        - label: It is free to access (or I noted the cost above)
+        - label: It contains no personal or identifiable participant data

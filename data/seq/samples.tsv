@@ -1,0 +1,4 @@
+sample	read1	read2	note
+sampleA	reads/sampleA_R1.fastq.gz	reads/sampleA_R2.fastq.gz	good quality, about 45x
+sampleB	reads/sampleB_R1.fastq.gz	reads/sampleB_R2.fastq.gz	good quality, has a minor sub-population
+sampleC	reads/sampleC_R1.fastq.gz	reads/sampleC_R2.fastq.gz	poor quality, low coverage (a QC teaching case)

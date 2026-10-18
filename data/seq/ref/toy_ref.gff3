@@ -1,0 +1,10 @@
+##gff-version 3
+##sequence-region chrToy 1 6000
+chrToy	toysim	gene	1001	1900	.	+	.	ID=gene:toyR1;Name=toyR1;biotype=protein_coding;description=hypothetical enzyme
+chrToy	toysim	mRNA	1001	1900	.	+	.	ID=transcript:toyR1.1;Parent=gene:toyR1;Name=toyR1.1;biotype=protein_coding
+chrToy	toysim	exon	1001	1900	.	+	.	Parent=transcript:toyR1.1;Name=toyR1.1.exon1
+chrToy	toysim	CDS	1001	1900	.	+	0	ID=cds:toyR1.1;Parent=transcript:toyR1.1
+chrToy	toysim	gene	3501	4199	.	-	.	ID=gene:toyR2;Name=toyR2;biotype=protein_coding;description=hypothetical transporter
+chrToy	toysim	mRNA	3501	4199	.	-	.	ID=transcript:toyR2.1;Parent=gene:toyR2;Name=toyR2.1;biotype=protein_coding
+chrToy	toysim	exon	3501	4199	.	-	.	Parent=transcript:toyR2.1;Name=toyR2.1.exon1
+chrToy	toysim	CDS	3501	4199	.	-	0	ID=cds:toyR2.1;Parent=transcript:toyR2.1

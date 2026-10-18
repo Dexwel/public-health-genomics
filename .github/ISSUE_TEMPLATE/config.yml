@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or start a discussion
+    url: https://github.com/YOUR-ORG/YOUR-REPO/discussions
+    about: Questions about the science or about studying - use Discussions, not Issues. (Replace this URL after you create the repository.)

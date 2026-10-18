@@ -1,0 +1,19 @@
+# Learner output (every lab writes to results/weekNN/)
+results/
+Rplots.pdf
+.Rhistory
+.RData
+.Rproj.user/
+
+# Tool output
+*.log
+*.nosex
+*.hh
+*.html.tmp
+__pycache__/
+.DS_Store
+
+# Large or private data must never be committed (see contribute/data-policy.md)
+*.bam
+*.cram
+*.vcf.gz.tbi.bak

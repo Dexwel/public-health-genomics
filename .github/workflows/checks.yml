@@ -1,0 +1,49 @@
+name: Course checks
+
+# Runs on every pull request and on pushes to main.
+# A pull request cannot be merged until these pass (see hosting/github-setup.md, "Rulesets").
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structure:
+    name: Structure and links
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lint pages (tabs, SUMMARY, links, front matter)
+        run: python scripts/lint_course.py
+
+  data:
+    name: Toy data reproduces
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install numpy
+      - name: Regenerate datasets and compare checksums
+        run: bash scripts/verify_data_reproducible.sh
+
+  labs:
+    name: Smoke-test the tools
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq r-base-core r-cran-ggplot2 r-cran-dplyr r-cran-readr r-cran-tidyr r-cran-ape plink1.9 samtools bcftools tabix bwa fastp fastqc seqtk python3-numpy
+          sudo ln -sf /usr/bin/plink1.9 /usr/local/bin/plink
+      - name: Setup check
+        run: bash scripts/check_setup.sh

@@ -1,0 +1,11 @@
+{
+  "name": "Public Health Genomics course",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "postCreateCommand": "sudo apt-get update -qq && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq r-base-core r-cran-ggplot2 r-cran-dplyr r-cran-readr r-cran-tidyr r-cran-ape r-cran-data.table plink1.9 samtools bcftools tabix bwa fastp fastqc seqtk python3-numpy && sudo ln -sf /usr/bin/plink1.9 /usr/local/bin/plink && bash scripts/check_setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["REditorSupport.r", "ms-python.python", "DavidAnson.vscode-markdownlint"]
+    }
+  },
+  "hostRequirements": { "cpus": 2, "memory": "4gb" }
+}

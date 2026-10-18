@@ -1,0 +1,60 @@
+name: Suggest a change to a lesson
+description: Spotted something wrong, unclear or out of date? Tell us - no Git knowledge needed.
+title: "[Week NN] short summary"
+labels: ["suggestion", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for improving the course. You do not need to know Git. Fill this in and a maintainer
+        or a subject-matter reviewer will take it from here. If you *can* make the edit yourself,
+        see `contribute/README.md` ("Path 2: edit on GitHub").
+  - type: dropdown
+    id: week
+    attributes:
+      label: Which part of the course?
+      options:
+        - Week 1 - Foundations
+        - Week 2 - Linux
+        - Week 3 - R
+        - Week 4 - Population genetics
+        - Week 5 - Sequencing and QC
+        - Week 6 - Alignment and variant calling
+        - Week 7 - Annotation and interpretation
+        - Week 8 - GWAS
+        - Week 9 - PRS and screening
+        - Week 10 - Pathogen genomics
+        - Week 11 - Ethics, equity, implementation
+        - Week 12 - Capstone
+        - Start-here / setup / glossary
+        - Contribution or hosting guides
+        - Data
+    validations:
+      required: true
+  - type: dropdown
+    id: tab
+    attributes:
+      label: Which tab?
+      options: ["1 · Start here", "2 · Concepts", "3 · Conversation", "4 · Hands-on lab", "5 · Practice", "6 · Go deeper", "7 · Contribute", "Not sure / whole page"]
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change?
+      options: ["Something is wrong (fact, number, command)", "Something is unclear", "Out of date (tool, guideline, link)", "Missing content I can help write", "Local adaptation or translation", "Accessibility / inclusion"]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change, and why?
+      description: Quote the sentence if you can. If you are correcting a fact, please give a source (guideline, paper, official documentation).
+    validations:
+      required: true
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help further?
+      options:
+        - label: I am willing to review the fix
+        - label: I would like to write the fix (assign me)
+        - label: I am a subject-matter expert in this area (please add me to the reviewer list)

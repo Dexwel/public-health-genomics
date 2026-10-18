@@ -1,0 +1,602 @@
+case_id,date_onset,age,sex,district,facility_type,outcome,sequenced,sequence_id,ct_value
+C-0001,2026-04-01,-1,F, Savanna South ,hospital,alive,yes,SEQ-0001,30.4
+C-0002,2026-04-10,39,F,Delta East,community,alive,TRUE,SEQ-0002,23.8
+C-0003,2026-03-28,65,M, Lakeside ,community,recovered,0,,28.9
+C-0004,2026-02-08,14,M,Savanna South,clinic,alive,no,,27.7
+C-0005,2026-02-22,8,F,Lakeside,clinic,,no,,30.8
+C-0006,29/01/2026,44,M,Highland,hospital,alive,N,,31.4
+C-0007,2026-02-11,19,M,Lakeside,clinic,alive,Y,SEQ-0007,29.0
+C-0008,2026-03-05,17,M,lakeside,clinic,ALIVE,0,,30.1
+C-0009,07/03/2026,38,M,DELTA EAST,community,alive,0,,24.9
+C-0010,2026-03-28,35,F,Coastal Hub,clinic,,yes,SEQ-0010,33.0
+C-0011,2026-02-09,18,male,Savanna South,hospital,Alive,yes,SEQ-0011,34.8
+C-0012,2026-02-22,47,f,Delta East,hospital,alive,N,,27.3
+C-0013,18/02/2026,36,M,delta east,clinic,alive,TRUE,SEQ-0013,
+C-0014,21/01/2026,17,F,Lakeside,hospital,alive,N,,20.8
+C-0015,2026-02-27,999,F,Lakeside,clinic,alive,no,,NA
+C-0016,2026-03-15,15,Female,Savanna South,community,Alive,yes,SEQ-0016,27.4
+C-0017,7 Apr 2026,68,F,Lakeside,community,alive,no,,22.5
+C-0018,2026-05-07,22,Female,Savanna South,clinic,Alive,N,,28.5
+C-0019,4 Feb 2026,35,Female,Coastal Hub,community,alive,0,,
+C-0020,2026-02-06,16,m,coastal hub,community,recovered,TRUE,SEQ-0020,24.3
+C-0021,2026-02-27,53,,Coastal Hub,hospital,recovered,TRUE,SEQ-0021,26.6
+C-0022,2026-03-21,19,M,Coastal Hub,hospital,recovered,Y,SEQ-0022,28.6
+C-0023,2026-02-21,56,M,Savanna North,clinic,Alive,FALSE,,35.2
+C-0024,22/01/2026,,F,Savanna North,community,Alive,no,,ND
+C-0025,2026-03-06,17,Female,Coastal Hub,clinic,alive,TRUE,SEQ-0025,20.9
+C-0026,2026-04-02,19 yrs,M,Coastal Hub,clinic,alive,yes,SEQ-0026,27.8
+C-0027,2026-02-11,49,M,Savanna North,clinic,alive,TRUE,SEQ-0027,ND
+C-0028,2026-02-08,35,F,Savanna North,clinic,alive,N,,25.4
+C-0029,,27,F,Coastal Hub,hospital,Alive,yes,SEQ-0029,26.2
+C-0030,2026-02-16,,M,SAVANNA NORTH,hospital,alive,yes,SEQ-0030,38.1
+C-0031,15/02/2026,35,M,Delta East,community,alive,Y,SEQ-0031,26.3
+C-0032,2026-02-21,20 yrs,F,Delta East,clinic,recovered,N,,31.3
+C-0033,2026-01-26,-1,M,Lakeside,hospital,alive,yes,SEQ-0033,30.2
+C-0034,2026-04-07,52 yrs,Female,Savanna North,community,Alive,Y,SEQ-0034,36.8
+C-0035,2026-03-19,,M,savanna north,clinic,,Y,SEQ-0035,NA
+C-0036,2026-02-11,34 yrs,F,Lakeside,clinic,alive,TRUE,SEQ-0036,31.7
+C-0037,21/02/2026,29,,Coastal Hub,clinic,alive,Y,SEQ-0037,21.4
+C-0038,2026-02-14,14,F,Coastal Hub,hospital,Alive,FALSE,,ND
+C-0039,2026-02-15,38,F,Coastal Hub,community,Alive,yes,SEQ-0039,24.7
+C-0040,27/03/2026,55,M,Coastal Hub,clinic,alive,TRUE,SEQ-0040,36.2
+C-0041,17/03/2026,23 yrs,male,SAVANNA NORTH,community,recovered,N,,31.4
+C-0042,2026-03-13,60,F,Coastal Hub,clinic,alive,TRUE,,30.5
+C-0043,2026-02-15,15,F,Coastal Hub,clinic,recovered,Y,SEQ-0043,27.9
+C-0044,24/01/2026,18,M,savanna south,hospital,alive,no,,26.7
+C-0045,2026-02-08,31,,Lakeside,clinic,,no,,NA
+C-0046,2026-02-26,13,F,savanna north,community,alive,N,,ND
+C-0047,2026-02-13,27,M, Savanna South ,community,recovered,Y,SEQ-0047,26.6
+C-0048,2026-02-04,41,F,Lakeside,clinic,died,1,SEQ-0048,30.0
+C-0049,2026-02-15,12,F,Delta East,community,alive,1,SEQ-0049,ND
+C-0050,2026-02-15,18,Female,Coastal Hub,community,alive,TRUE,SEQ-0050,24.2
+C-0051,2026-02-01,43,M,Savanna North,clinic,recovered,FALSE,,25.1
+C-0052,2026-03-04,69,unknown,Coastal Hub,hospital,alive,TRUE,SEQ-0052,27.0
+C-0053,2026-02-07,23,,Savana North,clinic,,FALSE,,26.5
+C-0054,2026-02-27,24,F,Coastal Hub,clinic,alive,yes,SEQ-0054,25.5
+C-0055,28/01/2026,10,F, Savanna North ,clinic,Alive,yes,SEQ-0055,32.3
+C-0056,2026-02-03,24,F,Coastal Hub,clinic,alive,TRUE,SEQ-0056,25.8
+C-0057,31 Jan 2026,32,M,Delta East,clinic,ALIVE,N,,30.3
+C-0058,2026-03-02,19 yrs,M,Lakeside,clinic,ALIVE,no,,ND
+C-0059,2026-03-27,28,F,Savanna North,hospital,alive,Y,SEQ-0059,30.0
+C-0060,05/02/2026,13,F,Savanna South,clinic,Alive,N,,23.4
+C-0061,2026-02-07,31,, Coastal Hub ,hospital,alive,TRUE,SEQ-0061,27.8
+C-0062,25/04/2026,32,F,Highland,hospital,alive,N,,
+C-0063,19 Jan 2026,48,F,Savanna North,community,Alive,no,,
+C-0064,2026-02-06,29,f,Lakeside,clinic,alive,Y,SEQ-0064,29.6
+C-0065,2026-02-01,27,Female, Delta East ,hospital,alive,FALSE,,24.0
+C-0066,26 May 2026,15,M,COASTAL HUB,clinic,Alive,TRUE,SEQ-0066,25.8
+C-0067,,44,male,savanna north,clinic,alive,0,,24.9
+C-0068,2026-02-27,-1,m,Highland,clinic,,yes,SEQ-0068,28.8
+C-0069,2026-03-07,26,unknown,SAVANNA NORTH,community,,Y,SEQ-0069,27.6
+C-0070,20/02/2026,28,F,Lakeside,hospital,Alive,no,,28.6
+C-0071,2026-05-24,21,F,Coastal Hub,clinic,alive,Y,SEQ-0071,
+C-0072,2026-03-19,7,unknown,Coastal Hub,clinic,alive,TRUE,SEQ-0072,
+C-0073,2026-01-22,56,F,Savanna South,hospital,alive,TRUE,SEQ-0073,28.0
+C-0074,2026-02-07,25,F,Savanna North,clinic,ALIVE,TRUE,SEQ-0074,23.8
+C-0075,2026-01-17,34,F,Coastal Hub,clinic,alive,TRUE,SEQ-0075,30.0
+C-0076,2026-03-28,7,,Savanna South,clinic,Alive,TRUE,SEQ-0076,NA
+C-0077,2026-02-20,9,F,Delta East,clinic,alive,0,,32.6
+C-0078,17 Feb 2026,44,M,Savanna South,clinic,alive,1,SEQ-0078,32.1
+C-0079,2026-02-19,9,male,Coastal Hub,clinic,alive,Y,SEQ-0079,28.1
+C-0080,2026-03-10,57,M,Savanna South,community,alive,no,,29.3
+C-0081,2026-02-23,-1,M,Coastal Hub,clinic,ALIVE,Y,SEQ-0081,NA
+C-0082,2026-04-08,56,F,Savanna North,clinic,alive,Y,,20.7
+C-0083,,13,F,Delta East,clinic,alive,FALSE,,23.2
+C-0084,11/03/2026,25,M, Lakeside ,clinic,alive,0,,24.8
+C-0085,2026-02-13,56,M,Delta East,clinic,alive,yes,SEQ-0085,34.1
+C-0086,20/02/2026,31,m,Lakeside,hospital,Alive,Y,SEQ-0086,NA
+C-0087,2026-02-28,17,F,Lakeside,clinic,recovered,yes,,24.7
+C-0088,9 Feb 2026,15,M,Lakeside,clinic,alive,TRUE,SEQ-0088,28.7
+C-0089,11 Feb 2026,19 yrs,M,Lakeside,clinic,ALIVE,0,,29.9
+C-0090,2026-02-23,23,f,Savanna North,hospital,Alive,N,,29.4
+C-0091,,32,M,highland,clinic,died,no,,25.5
+C-0092,2026-02-04,52,Female,Savanna North,clinic,alive,yes,SEQ-0092,27.8
+C-0093,2026-01-31,47,M,Delta East,hospital,died,N,,
+C-0094,2026-02-11,51,M,Coastal Hub,hospital,alive,1,SEQ-0094,
+C-0095,2026-03-12,17,F, Delta East ,clinic,Alive,FALSE,,27.6
+C-0096,14/02/2026,10,M, Lakeside ,community,ALIVE,no,,23.6
+C-0097,2026-02-10,34,M,Highland,community,Alive,FALSE,,29.0
+C-0098,2026-03-01,41,m, Coastal Hub ,community,alive,0,,22.3
+C-0099,12/02/2026,999,M,Highland,clinic,alive,N,,25.3
+C-0100,2026-02-04,30,,Savanna North,clinic,alive,TRUE,SEQ-0100,30.4
+C-0101,23/01/2026,9,F, Savanna North ,clinic,alive,1,SEQ-0101,28.1
+C-0102,29/05/2026,49,M,SAVANNA SOUTH,community,alive,no,,30.1
+C-0103,2026-03-17,24,unknown,Savanna South,hospital,alive,no,,
+C-0104,2026-02-15,7,male,lakeside,clinic,alive,0,,27.1
+C-0105,2026-01-27,35,F,Coastal Hub,clinic,alive,no,,24.0
+C-0106,2026-03-21,44,F,Highland,community,alive,FALSE,,24.2
+C-0107,2026-02-24,24,F,DELTA EAST,clinic,alive,FALSE,,18.8
+C-0108,2026-03-27,34 yrs,M,Savanna North,community,recovered,FALSE,,35.3
+C-0109,2026-02-18,14,unknown,Savanna North,clinic,alive,0,,18.0
+C-0110,2026-04-10,21,F,Delta East,community,alive,FALSE,,15.4
+C-0111,2026-02-25,30,M,DELTA EAST,clinic,Alive,FALSE,,34.1
+C-0112,2026-02-03,27,f,Savanna North,clinic,alive,N,,NA
+C-0113,2026-01-18,25,F,Coastal Hub,clinic,alive,Y,SEQ-0113,22.0
+C-0114,,34,F,Coastal Hub,clinic,ALIVE,Y,,28.5
+C-0115,09/04/2026,45,male,coastal hub,clinic,alive,TRUE,SEQ-0115,21.0
+C-0116,2026-02-24,44,M,Coastal Hub,hospital,alive,N,,23.9
+C-0117,2026-02-03,25,F,Lakeside,hospital,,no,,37.1
+C-0118,2026-04-12,62,unknown,Savanna South,clinic,alive,FALSE,,
+C-0119,2026-03-08,9,M,Savanna North,hospital,alive,1,SEQ-0119,19.8
+C-0120,2026-02-17,64,M,coastal hub,clinic,Alive,yes,SEQ-0120,NA
+C-0121,2026-03-06,59,Female, Delta East ,community,recovered,FALSE,,22.6
+C-0122,2026-03-27,20,M,Highland,community,alive,no,,22.0
+C-0123,2026-05-09,69,F,Coastal Hub,community,Alive,yes,SEQ-0123,26.7
+C-0124,2026-03-21,33,M,savanna north,community,ALIVE,0,,25.4
+C-0125,18/02/2026,22,M,Savanna South,hospital,alive,Y,SEQ-0125,26.5
+C-0126,22/03/2026,7 yrs,M, Delta East ,hospital,Alive,N,,36.4
+C-0127,2026-02-02,31,, Lakeside ,hospital,alive,N,,22.8
+C-0128,2 Mar 2026,61,M,Highland,clinic,alive,N,,28.3
+C-0129,2026-02-24,45,M,Savanna North,clinic,alive,no,,NA
+C-0130,2026-01-19,77,M,Coastal Hub,hospital,alive,1,SEQ-0130,33.5
+C-0131,2026-04-21,56,M,Savanna North,clinic,alive,no,,24.1
+C-0132,2026-02-04,,Female,Delta East,hospital,ALIVE,N,,
+C-0133,23/03/2026,25,f,Savanna South,community,alive,0,,25.8
+C-0134,17 Jan 2026,33,Female,Savanna North,clinic,alive,Y,SEQ-0134,22.0
+C-0135,2026-01-20,33,F,Coastal Hub,clinic,recovered,1,SEQ-0135,27.4
+C-0136,2026-04-05,50,M,Delta East,hospital,alive,FALSE,,25.5
+C-0137,15/03/2026,52,F,Delta East,clinic,alive,FALSE,,30.5
+C-0138,2026-02-12,20,F,Savanna South,community,recovered,no,,29.0
+C-0139,2026-02-28,43,F,Coastal Hub,community,recovered,N,,
+C-0140,2026-02-16,9,f,Lakeside,community,alive,N,,20.0
+C-0141,2026-02-20,14,unknown,Savanna South,hospital,recovered,0,,28.8
+C-0142,2026-02-10,35 yrs,F,Savanna South,clinic,alive,N,,ND
+C-0143,2026-02-17,38,m,Coastal Hub,community,Alive,1,SEQ-0143,24.4
+C-0144,2026-04-07,11,F,Savanna South,hospital,alive,yes,SEQ-0144,28.4
+C-0145,2026-03-07,37,M,Highland,clinic,alive,no,,29.0
+C-0146,2026-02-02,56,M,Coastal Hub,clinic,alive,TRUE,,22.1
+C-0147,2026-02-05,52,male,COASTAL HUB,community,ALIVE,1,SEQ-0147,27.9
+C-0148,2026-02-14,66,M, Highland ,hospital,alive,N,,31.5
+C-0149,2026-03-05,69,F,Delta East,community,,0,,12.2
+C-0150,2026-04-13,-1,Female,Delta East,clinic,alive,0,,24.8
+C-0151,26 Jan 2026,19,F,LAKESIDE,clinic,alive,Y,SEQ-0151,NA
+C-0152,2026-03-02,40,F,LAKESIDE,clinic,Alive,FALSE,,27.6
+C-0153,13 Feb 2026,21,male,Savanna South,hospital,alive,no,,26.5
+C-0154,08/03/2026,18,F,Lakeside,clinic,Alive,TRUE,SEQ-0154,29.4
+C-0155,2026-03-06,61,Female,DELTA EAST,hospital,alive,0,,26.5
+C-0156,2026-04-10,12,F,Delta East,clinic,Alive,no,,NA
+C-0157,2026-03-06,,male,savanna north,clinic,alive,N,,28.6
+C-0158,31/03/2026,22,M,Savanna North,hospital,alive,no,,31.8
+C-0159,15 Feb 2026,18,M,Coastal Hub,clinic,alive,Y,SEQ-0159,28.2
+C-0160,31 Jan 2026,34,F, Coastal Hub ,hospital,alive,yes,SEQ-0160,NA
+C-0161,10/03/2026,46,F,Coastal Hub,hospital,alive,TRUE,SEQ-0161,21.6
+C-0162,2026-03-03,62,m,Delta East,clinic,alive,FALSE,,24.0
+C-0163,25/02/2026,58 yrs,F,delta east,hospital,alive,1,SEQ-0163,25.1
+C-0164,2026-02-05,7,M,Savanna North,community,Alive,TRUE,,25.6
+C-0165,2026-04-12,13 yrs,F,Coastal Hub,clinic,alive,yes,SEQ-0165,ND
+C-0166,2026-02-10,32,M,Savanna North,clinic,alive,yes,SEQ-0166,ND
+C-0167,,35,F,delta east,clinic,Alive,0,,NA
+C-0168,2026-03-28,40,M,Savanna South,hospital,,yes,SEQ-0168,
+C-0169,2026-04-27,42,male,Lakeside,hospital,died,N,,NA
+C-0170,17/02/2026,39,M,Savanna South,clinic,ALIVE,0,SEQ-0170,26.3
+C-0171,2026-03-31,13,F,SAVANNA NORTH,clinic,alive,0,,31.0
+C-0172,2026-01-23,,,Delta East,hospital,Alive,N,,20.1
+C-0173,,24,F,Highland,clinic,Alive,FALSE,,26.4
+C-0174,22 Jan 2026,13,F,LAKESIDE,hospital,alive,Y,SEQ-0174,17.9
+C-0175,2026-02-12,21,m,Savanna North,hospital,alive,TRUE,SEQ-0175,29.0
+C-0176,27/01/2026,,M,highland,clinic,alive,N,,18.4
+C-0177,2026-02-01,9,f,lakeside,clinic,alive,0,,26.7
+C-0178,2026-02-23,37,F,Lakeside,community,recovered,N,,ND
+C-0179,22/02/2026,10,F,Coastal Hub,hospital,alive,yes,SEQ-0179,25.4
+C-0180,2026-02-17,26,m,Coastal Hub,community,died,N,,29.1
+C-0181,04/04/2026,50,M,Savanna North,clinic,ALIVE,yes,SEQ-0181,35.1
+C-0182,2026-02-09,33,M,Savanna South,community,alive,FALSE,,ND
+C-0183,,22,M,DELTA EAST,community,alive,0,,36.7
+C-0184,2026-04-04,20,M,Savanna North,clinic,alive,1,SEQ-0184,ND
+C-0185,2026-01-23,22,male,Savanna North,clinic,alive,Y,SEQ-0185,31.2
+C-0186,2026-04-21,26,F,LAKESIDE,clinic,alive,FALSE,,
+C-0187,3 Mar 2026,45,,Delta East,hospital,,N,,28.6
+C-0188,5 Feb 2026,14,M,Savanna North,hospital,alive,no,,27.6
+C-0189,2026-01-29,20,M,delta east,hospital,alive,no,,
+C-0190,2026-04-26,16,M,Savanna North,community,alive,1,SEQ-0190,26.5
+C-0191,18 Apr 2026,14,Female,Coastal Hub,community,Alive,Y,SEQ-0191,29.3
+C-0192,2026-02-22,38,m,lakeside,clinic,Alive,N,,32.6
+C-0193,2026-02-06,35,M,HIGHLAND,clinic,alive,FALSE,,22.5
+C-0194,07/03/2026,27,F,SAVANNA NORTH,hospital,ALIVE,yes,SEQ-0194,27.3
+C-0195,2026-01-25,,F,Savanna South,hospital,alive,Y,SEQ-0195,21.9
+C-0196,2026-03-09,38,F,Lakeside,hospital,Alive,no,,27.6
+C-0197,01/02/2026,47,F,Coastal Hub,clinic,recovered,TRUE,SEQ-0197,27.8
+C-0198,2026-03-24,15,Female,Savanna North,community,alive,FALSE,,26.4
+C-0199,,24 yrs,m, Delta East ,clinic,alive,TRUE,SEQ-0199,19.0
+C-0200,6 Feb 2026,38,male,Coastal Hub,hospital,alive,no,,28.4
+C-0201,15 Mar 2026,18,F, Coastal Hub ,community,recovered,Y,,NA
+C-0202,01/05/2026,50,unknown,Lakeside,hospital,recovered,no,,26.0
+C-0203,2026-02-01,31,f,Coastal Hub,clinic,,yes,SEQ-0203,26.3
+C-0204,2026-02-18,77,male,Lakeside,hospital,alive,N,,24.0
+C-0205,2026-01-28,81,male,LAKESIDE,clinic,recovered,N,,32.9
+C-0206,01/05/2026,20,M,Lakeside,hospital,recovered,no,,24.9
+C-0207,2026-01-30,-1,F,Savanna South,hospital,alive,1,SEQ-0207,16.4
+C-0208,9 Feb 2026,62,M,HIGHLAND,clinic,alive,N,,26.2
+C-0209,2026-01-25,27,m,Coastal Hub,clinic,Alive,TRUE,SEQ-0209,25.0
+C-0210,2026-03-06,8,,Coastal Hub,hospital,alive,1,SEQ-0210,ND
+C-0211,11/04/2026,12,M,Highland,community,alive,no,,28.9
+C-0212,2026-04-01,51,F,Savanna North,clinic,died,N,,30.1
+C-0213,2026-02-16,14,f,Delta East,community,ALIVE,no,,29.7
+C-0214,4 Apr 2026,61,Female, Highland ,community,alive,0,,23.5
+C-0215,,14,,Savanna North,hospital,alive,Y,,20.6
+C-0216,2026-05-01,30,M,highland,community,ALIVE,0,,24.1
+C-0217,2026-02-13,999,,SAVANNA NORTH,hospital,recovered,Y,SEQ-0217,27.9
+C-0218,2026-01-26,29,F,Savanna South,hospital,alive,1,SEQ-0218,NA
+C-0219,11/03/2026,34,F,Savanna South,hospital,alive,TRUE,SEQ-0219,28.1
+C-0220,2026-03-27,50,,Lakeside,hospital,alive,Y,SEQ-0220,
+C-0221,2026-06-14,10,f, Lakeside ,clinic,recovered,N,,24.5
+C-0222,,16 yrs,M,Lakeside,hospital,alive,N,,25.9
+C-0223,2026-02-14,45,M, Highland ,clinic,alive,no,,32.3
+C-0224,2026-02-10,30,male,Delta East,clinic,alive,FALSE,,23.4
+C-0225,20 Feb 2026,26,,Coastal Hub,clinic,recovered,TRUE,SEQ-0225,23.9
+C-0226,28/01/2026,55,M, Coastal Hub ,clinic,alive,1,SEQ-0226,31.2
+C-0227,2026-02-27,7,F,Coastal Hub,hospital,Alive,1,SEQ-0227,27.6
+C-0228,2026-02-16,44,F,Delta East,community,alive,no,,25.8
+C-0229,2026-02-14,60,F,coastal hub,clinic,alive,Y,SEQ-0229,28.5
+C-0230,2026-05-20,83,F,Highland,clinic,alive,no,,20.5
+C-0231,23/02/2026,19 yrs,M,Coastal Hub,hospital,recovered,TRUE,SEQ-0231,24.7
+C-0232,2026-02-09,42,F,Savanna South,hospital,Alive,yes,SEQ-0232,27.0
+C-0233,09/04/2026,28,M,Savanna North,clinic,,no,,33.0
+C-0234,2026-03-04,33,F, Delta East ,community,recovered,N,,ND
+C-0235,07/04/2026,33,M,savanna south,clinic,alive,no,,26.6
+C-0236,2026-03-21,,male,Savanna North,hospital,alive,Y,SEQ-0236,19.2
+C-0237,2026-02-27,35 yrs,M,Delta East,community,ALIVE,N,,28.4
+C-0238,2026-02-12,21,F,savanna south,clinic,alive,FALSE,,ND
+C-0239,15/03/2026,35,F,Savanna South,clinic,Alive,no,,31.8
+C-0240,06/03/2026,52,F,Delta East,clinic,Alive,no,,27.7
+C-0241,09/03/2026,36,F,LAKESIDE,community,alive,Y,SEQ-0241,32.2
+C-0242,2026-02-20,23,M,coastal hub,clinic,Alive,1,SEQ-0242,
+C-0243,27 Feb 2026,16,M,savanna south,hospital,alive,0,,
+C-0244,2026-03-01,35,F,Lakeside,clinic,alive,N,,32.1
+C-0245,22/02/2026,19,M,Lakeside,community,alive,no,,35.7
+C-0246,2026-05-06,13,F,Delta East,clinic,Alive,no,,39.5
+C-0247,18/05/2026,67,M, Coastal Hub ,community,alive,yes,SEQ-0247,29.9
+C-0248,2026-03-23,32,F,Delta East,hospital,,no,,36.5
+C-0249,2026-03-01,17,F,Savanna South,clinic,recovered,1,SEQ-0249,22.1
+C-0250,2026-03-29,74,M,COASTAL HUB,clinic,alive,FALSE,,26.6
+C-0251,2026-02-11,7,F,Lakeside,clinic,Alive,N,,29.6
+C-0252,17/01/2026,10,F,Savanna South,hospital,alive,TRUE,SEQ-0252,29.2
+C-0253,2026-01-29,58,unknown,Highland,clinic,died,no,,ND
+C-0254,2026-02-21,82,, Highland ,hospital,ALIVE,FALSE,,24.3
+C-0255,2026-02-23,26,M,Savanna North,clinic,,N,,27.2
+C-0256,20 Apr 2026,33,F,Coastal Hub,hospital,alive,1,SEQ-0256,31.0
+C-0257,17/04/2026,19,,Lakeside,clinic,ALIVE,FALSE,,31.2
+C-0258,17/02/2026,73,F,DELTA EAST,clinic,DIED,no,SEQ-0258,25.2
+C-0259,27/01/2026,45,F,savanna south,hospital,alive,TRUE,,25.1
+C-0260,18/04/2026,23,F,Savanna South,hospital,,1,SEQ-0260,26.9
+C-0261,2026-02-01,28,f,Coastal Hub,clinic,alive,yes,SEQ-0261,24.5
+C-0262,2026-04-17,27,M,Coastal Hub,hospital,recovered,TRUE,SEQ-0262,23.4
+C-0263,2026-03-25,40,M,Savanna North,hospital,ALIVE,0,,36.8
+C-0264,2026-05-17,39,male,Coastal Hub,clinic,alive,0,,30.6
+C-0265,2026-03-02,39,M,Coastal Hub,hospital,ALIVE,Y,SEQ-0265,ND
+C-0266,22/02/2026,55,M, Delta East ,community,alive,TRUE,SEQ-0266,23.6
+C-0267,1 Mar 2026,11 yrs,F,Savanna North,clinic,Alive,N,,24.6
+C-0268,2026-02-01,45,F,Savanna North,community,,0,,38.8
+C-0269,12 Feb 2026,-1,M,Savanna South,clinic,Alive,FALSE,,31.2
+C-0270,2026-03-27,33,M,DELTA EAST,hospital,alive,no,,20.8
+C-0271,2026-02-14,59,M,Savanna North,clinic,alive,yes,SEQ-0271,21.1
+C-0272,2026-02-22,30,F,Coastal Hub,hospital,Alive,TRUE,SEQ-0272,24.3
+C-0273,2026-01-12,37,M,Coastal Hub,hospital,alive,1,SEQ-0273,ND
+C-0274,4 Mar 2026,46,F,Coastal Hub,clinic,alive,1,SEQ-0274,NA
+C-0275,07/02/2026,16,F,Savanna North,hospital,alive,N,,18.9
+C-0276,2026-02-20,30,M,Lakeside,community,alive,0,,24.9
+C-0277,2026-02-19,18,F,Highland,community,alive,N,,ND
+C-0278,2026-02-14,56,F,Lakeside,hospital,Alive,Y,,22.8
+C-0279,2026-05-15,36,M,Lakeside,clinic,alive,0,,33.0
+C-0280,30/03/2026,25,Female,Highland,hospital,alive,no,,ND
+C-0281,2026-02-13,10 yrs,F,Coastal Hub,clinic,recovered,Y,SEQ-0281,25.8
+C-0282,2026-02-25,45,,Delta East,hospital,Alive,TRUE,SEQ-0282,40.0
+C-0283,2026-01-28,39 yrs,,Coastal Hub,hospital,Died,1,SEQ-0283,28.1
+C-0284,2026-02-14,8,unknown, Coastal Hub ,hospital,alive,1,SEQ-0284,
+C-0285,2026-02-20,18,M,Coastal Hub,clinic,alive,yes,SEQ-0285,34.8
+C-0286,2026-02-19,56,F,Delta East,clinic,recovered,0,,23.6
+C-0287,2026-03-02,7,M,SAVANNA NORTH,hospital,alive,0,,30.0
+C-0288,2026-01-15,36,,Savanna South,hospital,alive,N,,39.5
+C-0289,01/04/2026,18,male,Savanna North,hospital,alive,1,SEQ-0289,
+C-0290,23/03/2026,27,M,Highland,hospital,,N,,38.5
+C-0291,2026-02-16,,F,delta east,community,alive,N,SEQ-0291,27.6
+C-0292,2026-01-16,42,M,Delta East,community,dead,TRUE,SEQ-0292,19.7
+C-0293,2026-04-10,38,male,Delta East,community,alive,1,SEQ-0293,ND
+C-0294,2026-03-12,999,F, Delta East ,hospital,Alive,no,,26.5
+C-0295,2026-03-04,46,F,Coastal Hub,hospital,recovered,yes,SEQ-0295,31.0
+C-0296,2026-04-25,16 yrs,m,HIGHLAND,clinic,alive,0,,24.9
+C-0297,2026-02-08,34,m,Coastal Hub,hospital,alive,1,SEQ-0297,29.3
+C-0298,2026-02-05,85,,Delta East,clinic,Alive,0,,ND
+C-0299,2026-03-13,26,F,Savanna North,community,ALIVE,TRUE,SEQ-0299,ND
+C-0300,2026-03-08,62,Female,Savana North,clinic,alive,1,SEQ-0300,31.2
+C-0300,2026-03-08,62,Female,Savana North,clinic,alive,1,SEQ-0300,31.2
+C-0301,14 Jan 2026,36,F,Savanna North,clinic,alive,TRUE,SEQ-0301,25.3
+C-0302,22/01/2026,17 yrs,male,Lakeside,clinic,recovered,0,,31.5
+C-0303,2026-05-17,41,,Highland,hospital,alive,1,SEQ-0303,30.5
+C-0304,2 Feb 2026,59,M,Savanna South,hospital,Alive,1,SEQ-0304,26.7
+C-0305,2026-04-10,8,,Savanna North,clinic,alive,FALSE,,28.1
+C-0306,2026-02-24,26,m,Savanna North,hospital,recovered,yes,SEQ-0306,32.9
+C-0307,2026-03-18,,M, Savanna North ,clinic,ALIVE,Y,SEQ-0307,29.9
+C-0308,13/02/2026,20,male,Delta East,clinic,alive,no,,29.9
+C-0309,13/03/2026,32,M,Savanna South,clinic,alive,FALSE,,21.3
+C-0310,2026-02-27,36,,COASTAL HUB,community,alive,1,SEQ-0310,ND
+C-0311,18/01/2026,24,F, Lakeside ,clinic,alive,FALSE,,17.4
+C-0312,2026-02-10,25,M,Lakeside,clinic,alive,FALSE,,NA
+C-0313,2026-03-06,38,F,Highland,clinic,ALIVE,FALSE,,30.2
+C-0314,26/02/2026,15,F,Savanna South,hospital,alive,N,,
+C-0315,13/03/2026,16,M, Delta East ,hospital,alive,no,,26.4
+C-0316,2026-02-20,6,Female,savanna north,clinic,alive,N,,27.7
+C-0317,22 Feb 2026,46,male, Lakeside ,clinic,alive,no,,33.7
+C-0318,2026-04-02,41 yrs,F,Lakeside,clinic,alive,FALSE,,31.5
+C-0319,28/01/2026,39,F,SAVANNA NORTH,hospital,ALIVE,1,SEQ-0319,26.8
+C-0320,18/03/2026,45,M,Coastal Hub,clinic,alive,no,,27.0
+C-0321,2026-04-20,33,F,Savanna North,clinic,alive,1,SEQ-0321,26.7
+C-0322,27/03/2026,42,M,Highland,clinic,alive,0,,21.6
+C-0323,15/03/2026,43,male,Coastal Hub,community,Alive,Y,SEQ-0323,25.3
+C-0324,2026-02-07,12,F,COASTAL HUB,hospital,alive,Y,SEQ-0324,23.1
+C-0325,2026-03-24,68,M,SAVANNA SOUTH,hospital,alive,FALSE,,29.9
+C-0326,2026-03-05,10,F,Savanna South,clinic,alive,1,SEQ-0326,18.5
+C-0327,2026-02-13,48,F,Lakeside,hospital,alive,yes,SEQ-0327,29.6
+C-0328,2026-03-03,31,F,Delta East,hospital,recovered,N,,30.2
+C-0329,,73,M, Coastal Hub ,community,alive,yes,SEQ-0329,NA
+C-0330,2026-02-06,16,,Highland,clinic,Alive,0,,NA
+C-0331,,13,m,Savanna North,community,alive,FALSE,,22.8
+C-0332,,30,Female,Savanna South,hospital,alive,no,,19.1
+C-0333,2026-02-12,25,F,Highland,clinic,Alive,0,,27.3
+C-0334,2026-03-14,59,male,COASTAL HUB,hospital,alive,no,,26.6
+C-0335,2026-03-13,,M,Savanna North,clinic,alive,N,,27.1
+C-0336,2026-02-27,59,unknown,Savanna South,hospital,alive,Y,SEQ-0336,28.7
+C-0337,18 Apr 2026,14,male,Coastal Hub,clinic,,yes,SEQ-0337,25.4
+C-0338,2026-02-25,51,M,Savanna South,hospital,alive,1,SEQ-0338,27.8
+C-0339,2026-02-12,26 yrs,M,Savanna North,community,recovered,yes,SEQ-0339,21.3
+C-0340,2026-02-27,13,, Coastal Hub ,clinic,recovered,TRUE,SEQ-0340,30.8
+C-0341,10/02/2026,-1,m,savanna south,clinic,Alive,1,SEQ-0341,NA
+C-0342,2026-03-19,45,F,savanna south,hospital,alive,yes,SEQ-0342,36.8
+C-0343,2026-04-05,11,M,Lakeside,clinic,alive,N,,31.1
+C-0344,2026-02-07,20,M,Lakeside,clinic,alive,N,,25.1
+C-0345,2026-02-27,30,m, Savanna North ,hospital,Alive,yes,SEQ-0345,34.6
+C-0346,2026-02-25,7,male,Highland,hospital,alive,0,,30.3
+C-0347,,32,male, Savanna North ,hospital,alive,yes,SEQ-0347,18.0
+C-0348,2026-03-07,25,F,Savanna South,hospital,alive,yes,SEQ-0348,27.7
+C-0349,2026-03-10,37,M, Delta East ,community,ALIVE,FALSE,,NA
+C-0350,2026-01-21,38,F,Coastal Hub,clinic,recovered,N,,27.3
+C-0351,2026-02-03,22,unknown,Savanna North,clinic,recovered,yes,SEQ-0351,22.1
+C-0352,2026-02-12,53,,savanna north,clinic,alive,TRUE,SEQ-0352,26.7
+C-0353,2026-03-03,44,F, Savanna North ,community,Alive,FALSE,,32.3
+C-0354,28/01/2026,28,M,Highland,community,Alive,yes,SEQ-0354,NA
+C-0355,2026-02-18,41,unknown,coastal hub,clinic,alive,0,,24.2
+C-0356,2026-03-09,38,F,Savanna North,clinic,Alive,0,,36.7
+C-0357,2026-03-04,19,M,Coastal Hub,clinic,ALIVE,TRUE,SEQ-0357,25.9
+C-0358,26/01/2026,46,F,Savanna South,clinic,alive,yes,SEQ-0358,20.3
+C-0359,2026-04-03,33 yrs,M,Lakeside,hospital,alive,N,,34.3
+C-0360,2026-05-04,16,F, Delta East ,clinic,recovered,0,,36.7
+C-0361,2026-02-15,35,M,Lakeside,hospital,Alive,1,SEQ-0361,24.1
+C-0362,2026-03-28,21,f,Savana South,clinic,alive,0,,28.9
+C-0363,26/01/2026,33,M,COASTAL HUB,hospital,alive,1,SEQ-0363,29.8
+C-0364,2026-03-15,41 yrs,M,lakeside,community,alive,FALSE,,23.6
+C-0365,2026-03-19,58,F,Lakeside,hospital,alive,N,,ND
+C-0366,2026-01-22,33,M,delta east,community,Alive,N,,23.3
+C-0367,2026-01-27,24,Female,Lakeside,clinic,alive,no,,33.8
+C-0368,2026-03-14,23,f,HIGHLAND,clinic,,no,,31.3
+C-0369,2026-04-05,20,F,Lakeside,hospital,alive,no,,21.9
+C-0370,08/04/2026,18,m,LAKESIDE,clinic,recovered,FALSE,,21.7
+C-0371,10/03/2026,58,m,Coastal Hub,hospital,Alive,TRUE,SEQ-0371,31.5
+C-0372,18/04/2026,59,unknown,COASTAL HUB,clinic,alive,TRUE,SEQ-0372,26.1
+C-0373,2026-02-21,22,F,Savanna North,clinic,alive,yes,SEQ-0373,34.1
+C-0374,2026-02-07,999,male,Savanna North,clinic,Alive,0,,21.3
+C-0375,2026-01-18,999,M,Savanna South,clinic,recovered,N,,27.3
+C-0376,26/04/2026,27,unknown,Savanna North,clinic,Alive,N,,25.0
+C-0377,2026-03-13,28,M,Coastal Hub,clinic,alive,Y,SEQ-0377,25.7
+C-0378,2026-03-04,15,M, Savanna South ,hospital,alive,no,,31.2
+C-0379,2026-04-04,15,male,Coastal Hub,hospital,Alive,yes,SEQ-0379,25.4
+C-0380,2026-02-17,56,Female,Savanna North,hospital,alive,Y,SEQ-0380,22.5
+C-0381,20/02/2026,44,F,savanna north,hospital,alive,yes,SEQ-0381,22.3
+C-0382,3 Feb 2026,38,M,Coastal Hub,clinic,died,FALSE,,30.1
+C-0383,24/02/2026,89,M,SAVANNA NORTH,community,alive,no,,33.2
+C-0384,29/01/2026,30,Female,Coastal Hub,hospital,alive,TRUE,SEQ-0384,21.8
+C-0385,11 Feb 2026,48,F,coastal hub,clinic,alive,no,,30.4
+C-0386,23 Mar 2026,5,M,Coastal Hub,clinic,recovered,Y,SEQ-0386,26.7
+C-0387,2026-02-15,57,f,Savanna South,clinic,died,Y,SEQ-0387,14.7
+C-0388,2026-03-22,42,,savanna north,clinic,recovered,0,,27.7
+C-0389,26/03/2026,3,,Coastal Hub,hospital,alive,Y,SEQ-0389,NA
+C-0390,2026-02-15,,M,Savanna South,hospital,recovered,N,,32.6
+C-0391,06/04/2026,36,M,SAVANNA NORTH,clinic,alive,1,SEQ-0391,26.6
+C-0392,2026-03-07,24,M,Savanna North,hospital,ALIVE,FALSE,,ND
+C-0393,2026-03-18,33,F,Delta East,clinic,ALIVE,no,,28.0
+C-0394,2026-03-13,7,M,Coastal Hub,clinic,alive,TRUE,SEQ-0394,36.6
+C-0395,2026-03-17,22,M,Savanna North,hospital,alive,TRUE,SEQ-0395,33.8
+C-0396,15 Feb 2026,27,M,Savanna South,clinic,alive,yes,SEQ-0396,35.5
+C-0397,,41,M,DELTA EAST,community,alive,FALSE,,ND
+C-0398,2026-05-01,6,Female,Savana South,hospital,Alive,0,,26.3
+C-0399,2026-02-03,16,male,Coastal Hub,clinic,recovered,1,SEQ-0399,25.7
+C-0400,20/02/2026,36,F,Delta East,hospital,alive,FALSE,,21.4
+C-0401,21/02/2026,12,male,savanna north,clinic,alive,yes,SEQ-0401,22.6
+C-0402,25/04/2026,26,male,Coastal Hub,clinic,alive,yes,SEQ-0402,
+C-0403,2026-01-17,-1,f,COASTAL HUB,clinic,alive,TRUE,SEQ-0403,33.0
+C-0404,19/02/2026,62,,Savanna South,community,Alive,Y,,31.7
+C-0405,2026-03-07,36,Female,Savanna South,clinic,ALIVE,FALSE,,NA
+C-0406,2026-04-13,20,unknown, Lakeside ,clinic,alive,Y,SEQ-0406,32.6
+C-0407,2026-01-31,42 yrs,Female,Highland,community,alive,N,,29.5
+C-0408,2026-03-13,32,m,Highland,clinic,,N,,36.0
+C-0409,2026-03-10,9,M,savanna north,hospital,alive,FALSE,,31.3
+C-0410,2026-01-25,20,Female, Coastal Hub ,hospital,Alive,TRUE,SEQ-0410,21.5
+C-0411,6 Feb 2026,54,,Coastal Hub,community,alive,TRUE,SEQ-0411,20.7
+C-0412,2026-03-20,44,M,Coastal Hub,clinic,alive,TRUE,,17.5
+C-0413,08/03/2026,37,F,Savanna North,clinic,alive,yes,SEQ-0413,
+C-0414,2026-02-13,34,F,Savanna North,hospital,alive,TRUE,SEQ-0414,
+C-0415,2026-01-25,44,unknown, Coastal Hub ,clinic,recovered,yes,SEQ-0415,38.2
+C-0416,2026-02-20,31,male,highland,community,alive,N,,24.2
+C-0417,2026-01-27,26,F,Savanna North,clinic,alive,no,,30.4
+C-0418,2026-02-28,18,Female,Savanna South,clinic,alive,no,,13.8
+C-0419,2026-02-05,18,M,Savanna North,clinic,alive,FALSE,,22.9
+C-0420,28 Jun 2026,45,Female, Savanna North ,hospital,alive,1,SEQ-0420,29.0
+C-0421,2026-02-23,31,M,Lakeside,hospital,alive,TRUE,,31.1
+C-0422,2026-01-17,999,M,Coastal Hub,community,alive,1,,
+C-0423,2026-02-17,47,M,Savanna South,clinic,alive,no,,34.5
+C-0424,02/04/2026,57,m,SAVANNA SOUTH,clinic,alive,no,,24.8
+C-0425,27/02/2026,999,M,Lakeside,community,,Y,SEQ-0425,
+C-0426,2026-02-07,16 yrs,male,Savanna North,clinic,Alive,yes,SEQ-0426,ND
+C-0427,19/02/2026,30,M,Savanna North,community,Alive,1,SEQ-0427,29.2
+C-0428,04/02/2026,999,M,Savanna North,clinic,Alive,0,,29.5
+C-0429,2026-03-06,19,unknown,Lakeside,hospital,alive,no,,13.7
+C-0430,05/03/2026,35,F,COASTAL HUB,hospital,ALIVE,1,SEQ-0430,ND
+C-0431,2026-03-04,66,male,Savanna North,hospital,recovered,Y,SEQ-0431,24.4
+C-0432,2026-03-12,15 yrs,f,Coastal Hub,clinic,alive,1,SEQ-0432,ND
+C-0433,2026-03-08,35,f,Savanna North,community,ALIVE,1,SEQ-0433,ND
+C-0434,2026-03-03,25,f,Savanna South,hospital,recovered,TRUE,,24.0
+C-0435,2026-02-23,29,M,Coastal Hub,clinic,alive,1,SEQ-0435,18.2
+C-0436,2026-02-20,51,M,Coastal Hub,community,alive,Y,SEQ-0436,30.3
+C-0437,2026-02-06,14,,Savanna North,clinic,alive,N,,29.1
+C-0438,2026-03-06,18,M,Coastal Hub,hospital,recovered,1,SEQ-0438,26.8
+C-0439,16/02/2026,50,F,Savanna South,community,ALIVE,yes,SEQ-0439,23.3
+C-0440,2026-02-18,13,F, Highland ,hospital,Alive,no,,26.6
+C-0441,,38,F, Delta East ,community,alive,Y,SEQ-0441,NA
+C-0442,2026-01-25,40,F,Savanna North,clinic,Alive,0,,27.6
+C-0443,2026-02-15,28,M,Coastal Hub,community,dead,1,SEQ-0443,27.8
+C-0444,2026-02-18,65,F,Coastal Hub,clinic,alive,yes,SEQ-0444,22.9
+C-0445,2026-03-02,65,M,savanna north,clinic,recovered,N,,21.7
+C-0446,2026-05-11,18,f,Delta East,clinic,Alive,0,,20.5
+C-0447,16/02/2026,26,male,Coastal Hub,clinic,Alive,N,,20.9
+C-0448,19/02/2026,11,F,Savanna North,clinic,alive,TRUE,SEQ-0448,17.6
+C-0449,11 Mar 2026,48,F,Delta East,clinic,alive,no,,22.5
+C-0450,2026-04-03,46,F,Coastal Hub,clinic,alive,Y,SEQ-0450,26.0
+C-0451,2026-01-25,,F,Savanna South,hospital,alive,yes,SEQ-0451,
+C-0452,03/03/2026,22,M,Coastal Hub,clinic,alive,1,SEQ-0452,25.8
+C-0453,2026-03-10,73,F, Savanna North ,community,Alive,TRUE,SEQ-0453,NA
+C-0454,21/02/2026,,,delta east,hospital,alive,FALSE,,ND
+C-0455,2026-04-08,25,M,savanna north,hospital,alive,no,,24.2
+C-0456,2026-01-26,18,M,SAVANNA NORTH,clinic,alive,TRUE,SEQ-0456,21.7
+C-0457,2026-06-29,33,M,Coastal Hub,hospital,ALIVE,1,SEQ-0457,29.9
+C-0458,2026-03-04,43,M,COASTAL HUB,hospital,Died,Y,SEQ-0458,34.4
+C-0459,2026-05-26,14,F,highland,community,,TRUE,SEQ-0459,13.7
+C-0460,2026-03-23,26,F, Delta East ,community,ALIVE,FALSE,,25.6
+C-0461,2026-04-08,12,F,Coastal Hub,hospital,alive,Y,SEQ-0461,28.8
+C-0462,19/02/2026,21,m,savanna north,community,alive,FALSE,SEQ-0462,34.2
+C-0463,2026-03-28,48,f,Delta East,clinic,alive,0,,28.7
+C-0464,2026-01-26,21,M, Delta East ,clinic,recovered,Y,SEQ-0464,
+C-0465,08/02/2026,25,,Delta East,clinic,alive,FALSE,,19.9
+C-0466,2026-02-10,58,male,Savanna North,clinic,Alive,Y,SEQ-0466,18.0
+C-0467,2026-02-18,21,F,Lakeside,hospital,alive,TRUE,SEQ-0467,26.4
+C-0468,2026-05-02,17,m,coastal hub,community,alive,TRUE,SEQ-0468,20.1
+C-0469,2026-03-28,70,F,Savanna North,community,alive,0,,29.1
+C-0470,2026-01-23,3,F,Savanna South,clinic,alive,yes,SEQ-0470,20.5
+C-0471,10/02/2026,6,M,Savanna North,hospital,alive,1,SEQ-0471,31.8
+C-0472,2026-02-27,,F,Delta East,clinic,,no,,29.3
+C-0473,2026-02-04,32,F,Coastal Hub,clinic,alive,1,SEQ-0473,28.2
+C-0474,2026-03-24,19,Female,SAVANNA NORTH,community,alive,0,,21.8
+C-0475,2026-03-21,14,F,Savanna South,community,alive,no,,21.8
+C-0476,2026-02-06,19,Female,delta east,hospital,Alive,no,,24.8
+C-0477,2026-03-24,35,M,Delta East,clinic,Alive,0,,16.2
+C-0478,25 Jan 2026,47,M,Coastal Hub,hospital,recovered,yes,SEQ-0478,27.1
+C-0479,2026-03-13,65,F,savanna north,community,Died,N,,30.2
+C-0480,2026-03-12,16,F, Savanna North ,hospital,alive,no,,28.9
+C-0481,2026-03-21,46,unknown,SAVANNA NORTH,community,alive,Y,SEQ-0481,
+C-0482,2026-04-01,95,f,savanna north,clinic,alive,0,,35.0
+C-0483,2026-02-17,33,f,Highland,clinic,alive,no,,28.3
+C-0484,2026-03-02,32,M,Coastal Hub,community,alive,FALSE,,28.2
+C-0485,2026-01-25,25,M,COASTAL HUB,clinic,alive,FALSE,,33.5
+C-0486,2026-01-30,999,,Savanna North,hospital,recovered,Y,SEQ-0486,31.8
+C-0487,2026-03-08,39,F,Savanna North,community,alive,yes,SEQ-0487,23.2
+C-0488,2026-03-18,46,F,Delta East,clinic,alive,no,,23.1
+C-0489,,,F,Highland,hospital,recovered,0,,30.7
+C-0490,2026-01-25,39,M,highland,community,alive,FALSE,,33.5
+C-0491,2026-02-01,22,F,Savana North,clinic,ALIVE,no,,29.1
+C-0492,,33,F,Highland,community,ALIVE,N,,30.6
+C-0493,2026-03-14,,F,Highland,clinic,alive,0,,36.0
+C-0494,2026-03-02,17,M, Coastal Hub ,community,Alive,FALSE,,40.0
+C-0495,2026-02-21,32,M,Savanna North,clinic,alive,yes,SEQ-0495,35.1
+C-0496,2026-03-04,999,F,Coastal Hub,clinic,alive,0,,32.0
+C-0497,03/02/2026,10,M,Savanna North,community,Alive,TRUE,SEQ-0497,30.6
+C-0498,2026-01-21,19,M,Coastal Hub,clinic,alive,Y,SEQ-0498,34.9
+C-0499,2026-01-27,22,,Lakeside,hospital,alive,N,,28.7
+C-0500,2026-03-17,37,Female,Savanna South,hospital,recovered,0,,30.1
+C-0501,2026-03-25,34,F,Savana South,clinic,alive,N,,20.7
+C-0502,2026-02-08,34,F,Savanna South,community,alive,no,,26.5
+C-0503,06/02/2026,77,M, Delta East ,hospital,alive,FALSE,,25.6
+C-0504,07/02/2026,45,M,Savana North,clinic,,TRUE,SEQ-0504,24.7
+C-0505,2026-03-12,10,unknown,Savanna South,hospital,alive,no,,16.4
+C-0506,2026-02-04,29,M,Lakeside,clinic,recovered,yes,,27.9
+C-0507,2026-02-12,26,f,Savanna North,hospital,alive,yes,SEQ-0507,24.9
+C-0508,2026-03-15,56,M,Highland,clinic,Alive,FALSE,,NA
+C-0509,2026-01-19,32,F,Coastal Hub,clinic,ALIVE,1,SEQ-0509,21.7
+C-0510,18/02/2026,49,F,Coastal Hub,clinic,alive,1,SEQ-0510,
+C-0511,,49,M,Lakeside,clinic,Alive,TRUE,SEQ-0511,31.3
+C-0512,15 Mar 2026,24,Female,Coastal Hub,clinic,alive,no,,26.5
+C-0513,2026-05-21,95,M, Savanna North ,hospital,Alive,no,,
+C-0514,2026-01-20,28,f,Savana North,hospital,ALIVE,1,SEQ-0514,NA
+C-0515,16/02/2026,47,male, Savanna South ,clinic,alive,0,,29.8
+C-0516,,16,M, Savanna North ,hospital,alive,0,,27.7
+C-0517,5 Feb 2026,18,M, Savanna South ,clinic,alive,0,,31.5
+C-0518,2026-02-11,5,F,coastal hub,hospital,Alive,TRUE,SEQ-0518,25.2
+C-0519,2026-03-04,32,m, Savanna North ,clinic,ALIVE,yes,SEQ-0519,21.2
+C-0520,2026-02-21,22,F,lakeside,hospital,alive,FALSE,,20.0
+C-0521,2026-01-29,31,male,Delta East,clinic,alive,N,,18.8
+C-0522,,38,Female,Delta East,community,alive,yes,,18.3
+C-0523,2026-03-05,23,F,Lakeside,hospital,alive,N,,ND
+C-0524,14/01/2026,27,,Savanna North,clinic,alive,1,SEQ-0524,21.5
+C-0525,18/03/2026,42,F,Delta East,community,alive,N,,29.1
+C-0526,2026-01-28,999,F,Delta East,clinic,ALIVE,FALSE,,NA
+C-0527,2026-02-10,41,unknown,Coastal Hub,clinic,,yes,SEQ-0527,NA
+C-0528,,43,M,Delta East,clinic,alive,0,,21.7
+C-0529,2026-02-08,-1,unknown,Coastal Hub,clinic,recovered,TRUE,SEQ-0529,23.2
+C-0530,2026-04-14,28,F,Lakeside,community,alive,TRUE,SEQ-0530,29.6
+C-0531,2026-01-25,47,F,Coastal Hub,community,,Y,SEQ-0531,36.5
+C-0532,2026-02-18,41,M,Lakeside,hospital,alive,no,,16.4
+C-0533,2026-02-04,31,M,Delta East,clinic,alive,FALSE,,22.1
+C-0534,22/02/2026,22,F,Savanna South,community,ALIVE,Y,SEQ-0534,26.4
+C-0535,2026-02-13,51,F,SAVANNA NORTH,hospital,alive,N,,23.1
+C-0536,2026-03-22,24,male,savanna north,hospital,alive,Y,SEQ-0536,35.1
+C-0537,2026-02-12,32,M,Delta East,hospital,alive,no,,
+C-0538,2026-04-10,74,F,Delta East,community,,N,,29.5
+C-0539,14 Mar 2026,32,,Savanna South,hospital,alive,no,,29.7
+C-0540,15/03/2026,33,F,SAVANNA NORTH,community,alive,0,,NA
+C-0541,2026-02-11,25,f,Lakeside,hospital,alive,TRUE,SEQ-0541,28.0
+C-0542,2026-02-22,22,M,Coastal Hub,community,alive,N,,ND
+C-0543,24/02/2026,21,M,Delta East,clinic,ALIVE,0,,25.3
+C-0544,2026-02-02,999,M,Delta East,clinic,,no,,22.0
+C-0545,2026-02-16,999,M,Coastal Hub,clinic,alive,Y,SEQ-0545,NA
+C-0546,2026-02-01,23,m,lakeside,clinic,alive,FALSE,,35.3
+C-0547,2026-01-28,11,m,Savanna South,community,recovered,no,SEQ-0547,30.1
+C-0548,,95,M,COASTAL HUB,community,ALIVE,0,,30.7
+C-0549,09/03/2026,18,f,Savanna North,clinic,recovered,yes,SEQ-0549,32.2
+C-0550,26 Feb 2026,22 yrs,M,Savanna South,hospital,alive,no,,ND
+C-0551,2026-03-14,37,Female,Delta East,hospital,alive,0,SEQ-0551,30.7
+C-0552,16 May 2026,8,F,SAVANNA NORTH,clinic,alive,yes,SEQ-0552,30.7
+C-0553,27 Jan 2026,999,,Savanna North,hospital,alive,Y,SEQ-0553,36.5
+C-0554,07/02/2026,29,F,coastal hub,clinic,alive,TRUE,SEQ-0554,29.5
+C-0555,2026-03-03,7,M,Savanna North,hospital,recovered,yes,,NA
+C-0556,2026-02-19,30 yrs,F,DELTA EAST,hospital,recovered,no,,NA
+C-0557,2026-02-14,22,, Coastal Hub ,community,alive,FALSE,,24.5
+C-0558,2026-02-12,999,Female,HIGHLAND,hospital,ALIVE,no,,22.5
+C-0559,2026-05-25,53,F,Coastal Hub,community,Alive,yes,SEQ-0559,28.7
+C-0560,2026-02-05,41,F,SAVANNA NORTH,community,,0,,32.6
+C-0561,28/01/2026,9,m,Savanna North,hospital,alive,0,,31.5
+C-0562,2026-02-17,20,F,SAVANNA SOUTH,hospital,recovered,1,SEQ-0562,32.3
+C-0563,2026-02-23,56,M,Lakeside,clinic,Alive,0,,26.3
+C-0564,16/02/2026,21,M,Coastal Hub,hospital,alive,1,SEQ-0564,24.2
+C-0565,2026-03-09,21,F,highland,hospital,alive,N,,ND
+C-0566,2026-01-25,,F,Savanna North,hospital,ALIVE,Y,SEQ-0566,21.6
+C-0567,2026-03-06,58,m, Savanna North ,clinic,alive,TRUE,SEQ-0567,29.8
+C-0568,2026-02-09,18,M, Delta East ,clinic,alive,FALSE,,22.3
+C-0569,2026-02-07,999,M,DELTA EAST,clinic,alive,N,,31.1
+C-0570,2026-02-03,42,M,Savanna North,hospital,died,Y,SEQ-0570,NA
+C-0571,2026-03-06,37,m,Delta East,hospital,Alive,yes,SEQ-0571,12.0
+C-0572,2026-05-08,5,F,Delta East,hospital,alive,0,,28.9
+C-0573,2026-02-21,49,F,Savanna North,community,alive,N,,ND
+C-0574,26/01/2026,999,F,Coastal Hub,hospital,alive,1,SEQ-0574,NA
+C-0575,15 Feb 2026,35,F,Delta East,hospital,Alive,0,,21.0
+C-0576,2026-02-21,13,F,Savanna North,hospital,alive,Y,SEQ-0576,25.5
+C-0577,2026-03-27,-1,unknown,Coastal Hub,clinic,Alive,Y,SEQ-0577,28.5
+C-0578,2026-02-28,55,M,Savanna North,hospital,alive,1,,22.9
+C-0579,16/01/2026,19,M,DELTA EAST,clinic,alive,N,,14.7
+C-0580,22/01/2026,32,f, Coastal Hub ,clinic,alive,1,SEQ-0580,28.3
+C-0581,2026-02-06,21,Female,Savanna South,clinic,recovered,1,SEQ-0581,30.9
+C-0582,2026-02-25,70,F,savanna north,community,alive,no,,22.9
+C-0583,2026-01-28,95,M,Coastal Hub,clinic,alive,TRUE,,30.2
+C-0584,21/02/2026,47,F,Coastal Hub,clinic,alive,0,,38.0
+C-0585,2026-04-17,30,M,Lakeside,clinic,Alive,0,,25.4
+C-0586,,66,unknown,Highland,clinic,alive,N,,22.8
+C-0587,2026-01-30,44,m,Delta East,hospital,Alive,FALSE,,24.7
+C-0588,2026-04-04,22,M,Savanna North,hospital,Alive,1,SEQ-0588,NA
+C-0589,22/04/2026,29,F,Coastal Hub,hospital,alive,Y,SEQ-0589,30.5
+C-0590,2026-03-06,15,F,Delta East,clinic,ALIVE,Y,SEQ-0590,23.8
+C-0591,2026-02-08,9,m,savanna south,hospital,alive,yes,SEQ-0591,32.9
+C-0592,2026-03-12,18,F,coastal hub,clinic,Alive,0,,
+C-0593,,15,F,Highland,community,alive,TRUE,SEQ-0593,20.0
+C-0594,,25,M,Coastal Hub,clinic,Alive,TRUE,SEQ-0594,25.7
+C-0595,2026-02-02,61,F,Delta East,clinic,alive,FALSE,,26.5
+C-0596,2026-02-15,20,Female,LAKESIDE,community,alive,no,,23.5
+C-0597,2026-02-08,20,f,Savanna South,clinic,DIED,0,,33.1
+C-0598,7 Mar 2026,50,F,Savanna South,community,recovered,yes,SEQ-0598,30.9
+C-0599,2026-01-31,22,male,Lakeside,hospital,,0,,
+C-0600,2026-03-27,8,M,Savanna North,community,alive,1,SEQ-0600,NA

@@ -1,0 +1,38 @@
+name: A lab command did not work
+description: A command, script or expected output in a hands-on lab does not match what you got.
+title: "[Lab, Week NN] what failed"
+labels: ["lab-bug", "needs-triage"]
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week and step
+      placeholder: "Week 6, step 4 (bcftools mpileup)"
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: The exact command you ran
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What happened (paste the full error or output)
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the page said you should see
+  - type: textarea
+    id: env
+    attributes:
+      label: Your setup
+      description: "Paste the output of `bash scripts/check_setup.sh`, plus your operating system (e.g. Windows 11 + WSL2 Ubuntu 24.04, macOS 14, GitHub Codespaces)."
+      render: text
+    validations:
+      required: true
