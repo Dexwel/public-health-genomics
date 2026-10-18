@@ -1,0 +1,65 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Public Health Genomics
+  structure:
+    - type: section
+      key: section-start-here
+      title: Start here
+      path: start-here
+      default: true
+      children:
+        - type: space
+          key: space-start-here
+          title: Start here
+          path: start-here
+          default: true
+          content:
+            directory: ./start-here
+    - type: section
+      key: section-the-12-weeks
+      title: The 12 weeks
+      path: weeks
+      children:
+        - type: space
+          key: space-weeks
+          title: The 12 weeks
+          path: weeks
+          default: true
+          content:
+            directory: ./weeks
+    - type: section
+      key: section-contribute
+      title: Contribute
+      path: contribute
+      children:
+        - type: space
+          key: space-contribute
+          title: Contribute
+          path: contribute
+          default: true
+          content:
+            directory: ./contribute
+    - type: section
+      key: section-host-it-yourself
+      title: Host it yourself
+      path: hosting
+      children:
+        - type: space
+          key: space-hosting
+          title: Host it yourself
+          path: hosting
+          default: true
+          content:
+            directory: ./hosting
+    - type: section
+      key: section-learner-showcase
+      title: Learner showcase
+      path: showcase
+      children:
+        - type: space
+          key: space-showcase
+          title: Learner showcase
+          path: showcase
+          default: true
+          content:
+            directory: ./showcase
